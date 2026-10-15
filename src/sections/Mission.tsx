@@ -2,8 +2,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { SectionHeading } from "../components/ui";
 import { Starburst } from "../components/motifs";
-// Assume image exists, we'll verify or it will throw at build time but we can check later
-import missionImg from "../assets/photos/gallery/concerts-artists/bw-crowd-stage-wide.jpg";
+import missionImg from "../assets/photos/gallery/Magic-time/stage.jpeg";
 
 export function Mission() {
   const containerRef = useRef<HTMLDivElement>(null);

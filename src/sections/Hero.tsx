@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { ChevronDown } from "lucide-react";
 import { Button } from "../components/ui";
 import { BreathingCircle } from "../components/motifs";
-import heroImg from "../assets/photos/hero/hero-stage-crowd.jpg";
+import heroImg from "../assets/photos/gallery/Magic-time/stage3.jpeg";
 
 export function Hero() {
   const containerVariants: Variants = {

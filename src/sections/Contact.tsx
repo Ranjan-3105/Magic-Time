@@ -104,7 +104,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-headline font-bold text-lg text-white mb-1">Instagram</h4>
-                  <a href="https://instagram.com/magictimeevents" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-[#E1306C] transition-colors">@magictimeevents</a>
+                  <a href="https://www.instagram.com/magictime_events_official/" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-[#E1306C] transition-colors">@magictime_events_official</a>
                 </div>
               </div>
 

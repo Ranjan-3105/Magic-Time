@@ -50,7 +50,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://instagram.com/magictimeevents" 
+                href="https://www.instagram.com/magictime_events_official" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-bg-secondary flex items-center justify-center text-white hover:bg-accent-orange hover:text-white transition-colors border border-border-subtle"

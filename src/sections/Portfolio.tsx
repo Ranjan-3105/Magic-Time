@@ -16,9 +16,9 @@ interface GalleryItem {
 const CATEGORY_MAP: Record<string, string> = {
   "concerts-artists": "Concerts & Festivals",
   "college-fests": "College Fests",
-  "corporate-government": "Corporate & Government",
-  "production-infrastructure": "Production & Infrastructure",
-  "decor-design": "Décor & Design",
+  // "corporate-government": "Corporate & Government",
+  // "production-infrastructure": "Production & Infrastructure",
+  // "decor-design": "Décor & Design",
 };
 
 const FILTERS = ["All", ...Object.values(CATEGORY_MAP)];

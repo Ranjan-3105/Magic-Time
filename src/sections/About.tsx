@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Check, Quote } from "lucide-react";
 import { SectionHeading } from "../components/ui";
 import { ConcentricRings } from "../components/motifs";
-import aboutImg from "../assets/photos/gallery/college-fests/about-crowd-cheering.jpg";
+import aboutImg from "../assets/photos/gallery/Magic-time/artist2.jpeg";
 
 const checklist = [
   "800+ Successful Events",
