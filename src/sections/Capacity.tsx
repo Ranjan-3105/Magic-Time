@@ -36,16 +36,16 @@ export function Capacity() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: i * 0.05 }}
-              className="bg-bg-secondary/50 backdrop-blur-sm border border-border-subtle rounded-2xl p-6 flex flex-col items-center justify-center text-center hover:border-accent-orange/30 transition-colors"
+              className="bg-bg-secondary/50 backdrop-blur-sm border border-border-subtle rounded-2xl p-4 md:p-6 flex flex-col items-center justify-center text-center hover:border-accent-orange/30 transition-colors overflow-hidden min-w-0"
             >
-              <div className="text-3xl md:text-4xl lg:text-5xl font-headline font-bold text-accent-gold mb-3">
+              <div className="text-2xl md:text-3xl lg:text-4xl font-number font-bold tracking-wide text-accent-gold mb-3 w-full truncate px-1">
                 {item.isText ? (
                   <span>{item.text}</span>
                 ) : (
                   <AnimatedNumber value={item.value!} suffix={item.suffix} />
                 )}
               </div>
-              <div className="text-sm font-body text-text-muted">{item.label}</div>
+              <div className="text-xs md:text-sm font-body text-text-muted leading-snug">{item.label}</div>
             </motion.div>
           ))}
         </div>

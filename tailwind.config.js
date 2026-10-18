@@ -19,6 +19,7 @@ export default {
       fontFamily: {
         headline: ['"Playfair Display"', 'serif'],
         body: ['Poppins', 'sans-serif'],
+        number: ['"Barlow Condensed"', 'sans-serif'],
       },
       animation: {
         'breathe': 'breathe 8s ease-in-out infinite',

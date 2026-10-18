@@ -9,6 +9,7 @@ import { Mission } from "./sections/Mission";
 import { Services } from "./sections/Services";
 import { Capacity } from "./sections/Capacity";
 import { Portfolio } from "./sections/Portfolio";
+import { Achievements } from "./sections/Achievements";
 import { Contact } from "./sections/Contact";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Services />
         <Capacity />
         <Portfolio />
+        <Achievements />
         <Contact />
       </main>
 

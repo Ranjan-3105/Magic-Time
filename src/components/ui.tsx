@@ -55,7 +55,7 @@ export function SectionHeading({ eyebrow, title, align = "left", className, ...p
   );
 }
 
-export function AnimatedNumber({ value, suffix = "", duration = 1.5 }: { value: number; suffix?: string; duration?: number }) {
+export function AnimatedNumber({ value, suffix = "", duration = 1.2 }: { value: number; suffix?: string; duration?: number }) {
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
   
@@ -83,5 +83,5 @@ export function AnimatedNumber({ value, suffix = "", duration = 1.5 }: { value: 
     }
   }, [isInView, value, suffix, duration]);
 
-  return <span ref={ref}>0{suffix}</span>;
+  return <span ref={ref} className="font-number">0{suffix}</span>;
 }

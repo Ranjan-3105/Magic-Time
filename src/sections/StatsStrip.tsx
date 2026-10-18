@@ -22,7 +22,7 @@ export function StatsStrip() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="flex flex-col items-center text-center px-4"
             >
-              <div className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold text-accent-gold mb-2">
+              <div className="text-4xl md:text-5xl lg:text-6xl font-number font-bold tracking-wide text-accent-gold mb-2">
                 {stat.isText ? (
                   <span>{stat.text}</span>
                 ) : (
